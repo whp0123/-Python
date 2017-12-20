@@ -1,0 +1,5 @@
+Windows配置python环境
+1、python官网下载python2最新版本64位安装包 python-2.7.14.amd64.msi
+2、顺序安装，默认安装在C盘
+3、设置python环境变量，在path变量值最后添加 ;C:\Python27。 确定后，此时可以通过命令  python *.py 执行python程序;
+4、若需要直接执行*.py文件，需要在pathext变量值最后添加  ;.PY 。确定后，可直接通过命令  *.py 执行python程序。
